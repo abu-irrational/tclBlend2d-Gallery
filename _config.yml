@@ -1,4 +1,33 @@
 # _config.yml
 
-title: "Jekyll Actions Demo"
+title: "tclBlend2 - Gallery"
+
+baseurl: /tclBlend2d-Gallery
+
+
+collections:
+  cards:
+    output: true
+
+plugins:
+  - jekyll-paginate-v2
+
+# ======================================================
+# pagination - v2
+# ======================================================
+
+pagination:
+   enabled: true
+   per_page: 10
+
+defaults:
+  - scope:
+      path: ""
+      type: "cards"
+    values:
+      layout: "card"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 

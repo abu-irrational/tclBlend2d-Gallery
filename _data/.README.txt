@@ -1,0 +1,19 @@
+Datasets specs:
+
+=== zzcards.cvs ===
+A CSV dataset.
+NOTE:
+ * comma "," separated fields.  Remember to double-quote fields having "," (i.e RELATED)
+ * Remove trailing blanc lines !!
+Fields:
+- ID      - the KEY, single word (only alfanumeric, no underscore, nor other chars)
+- TITLE   - a short title
+- INFO    - long description  (? unstructured ?)
+- RELATED - (optional) sequence of ID (separated by 1 " ")
+
+For each ID, we expect two images placed in the /_cards directory :
+  <ID>.png   (large image)
+  <ID>_t.png (thumbnail image)  * this is generated with pre-Jekill.tcl
+
+** VERY IMPORTANT **
+this dataset should be ordered by the ID field

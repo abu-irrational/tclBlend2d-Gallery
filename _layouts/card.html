@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+{% assign Per_Page = site.pagination.per_page %}
+
+<h1>{{page.ID}}</h1>
+
+{% assign imgFile = page.ID | prepend: '/pics/' | relative_url | append: '.png' %}
+
+{% if page.prevID %}
+	{% assign prevCard= page.prevID | append: '.html' %}
+{% endif %}
+{% if page.nextID %}
+	{% assign nextCard= page.nextID | append: '.html' %}
+{% endif %}
+{% assign indexPageRef = page.seqNo | divided_by: Per_Page | plus: 1 | prepend: '/pageidx/' | relative_url | append: '.html' %}
+
+
+<center>
+<div class="card">
+	<img class="cardImage" src="{{imgFile}}">
+{% if prevCard %}
+    <a class="prevCard" href="{{prevCard}}">&lt;</a>
+{% endif %}
+{% if nextCard %}
+    <a class="nextCard" href="{{nextCard}}">&gt;</a>
+{% endif %}
+	<a class="indexPageRef" href="{{indexPageRef}}">^</a>
+</div>
+
+{{page.TITLE}}
+<div>{{page.INFO}}</div>
+
+</center>
+
+
+{% assign relIDs= page.RELATED  | split: " " %}
+{% if relIDs.size > 0 %}
+<H2>See also ..</H2>
+
+{% for relID in relIDs %}
+  {% assign thumbImg = relID | prepend: '/pics/' | relative_url | append: '_t.png' %}
+  {% assign relIDCard= relID | append: '.html' %}
+  <A HREF={{relIDCard}}><IMG src="{{thumbImg}}"></A>
+{% endfor %}
+{% endif %}

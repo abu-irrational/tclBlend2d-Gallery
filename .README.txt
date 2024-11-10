@@ -1,0 +1,33 @@
+=== README ===
+
+iIl cuore di tutto e' nel tabulto
+_data
+   cards.csv
+e nella cartella di immagini
+pics
+   *.png
+
+A partire da queste, con
+  tclsh .pre-Jekyll.tcl
+vengono creati:
+* una serie di moduli per ogni riga di cards.csv
+  e posti nella cartella
+	_cards   
+* una serie di thumbnail nella cartella pics.
+
+-----
+* In _layout abbiamo
+    cards.html  -  template per le schede in _cards
+    
+./card-index.html   - Questo e' il modello per la paginazione delle
+ schede
+
+# --- generated _site
+
+_site
+  cards
+    *.html   (based on dataset zzcards.csv)
+  pageidx
+    *.html   (pagination of the card-index file)
+  pics
+    *.png

@@ -1,0 +1,43 @@
+---
+template: gallery
+title: Paginated Index Cards
+pagination:
+  enabled: true
+  collection: 'cards'
+  indexpage: 'pageidx/1.html'
+  permalink: 'pageidx/:num.html'
+#  per_page: XX  # defined in _config.yml
+  trail:
+    before: 3 # The number of links before the current page
+    after: 3  # The number of links after the current page
+---
+<h1>Generated pages gallery</h1>
+
+<div>
+{% for xcard in paginator.posts %}
+	{% assign thumbImg = xcard.ID | prepend: '/pics/' | relative_url | append: '_t.png' %}
+	{% assign cardPage = xcard.url | relative_url %}
+
+<div class="responsive">
+  <div class="thumb">
+    <a href="{{cardPage}}">
+      <img src="{{thumbImg}}"/>
+    </a>
+    <div class="desc">{{xcard.TITLE}}</div>
+  </div>
+</div>
+
+{% endfor %}
+</div>
+
+ // ma perche' nell'ultima page (9?)  non va a capo
+
+{% if paginator.page_trail %}
+<div class="pagination">
+  {% for trail in paginator.page_trail %}
+	<a href="{{ trail.path | relative_url }}"
+	    {% if page.url == trail.path %} class="active"{% endif %}
+	>{{trail.num}}</a>
+  {% endfor %}
+</div>
+{% endif %}

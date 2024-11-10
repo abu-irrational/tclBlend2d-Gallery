@@ -1,0 +1,148 @@
+/* == Card Image with up, next, prev arrows === */
+div.card {
+  position: relative;
+  display: inline-block; /* Ensure image and buttons stay together */
+}
+
+.cardImage {
+  display: block; /* Removes the space below the image */
+  width: 100%; /* Or any specific width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.prevCard, .nextCard {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Adjust for exact center alignment */
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  border: none;
+  transition: 0.6s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nextCard {
+  right: 10px;
+  border-radius: 3px 0 0 3px;
+}
+.prevCard {
+  left: 10px;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.indexPageRef {
+  position: absolute;
+  top: 0%;
+  left: 50%; /* Center vertically */
+  transform: translateX(-50%); /* Adjust for exact center alignment */
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  border: none;
+  transition: 0.6s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevCard:hover, .nextCard:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/*  ?? non so se funziona fade */
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@keyframes fade {
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
+
+/* == pagination == */
+ /* ?? ma perche' non inizia a capo ??  sull'ultima pagina .. */
+div.pagination {
+	display: block;
+}
+
+div.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+div.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+div.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+/* == thumbnails in pagination pages == */
+
+div.thumb {
+  border: 1px solid #ccc;
+}
+
+div.thumb:hover {
+  border: 1px solid #777;
+}
+
+div.thumb img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  xxxwidth: 100%;
+  xxxheight: auto;
+}
+
+div.thumb .desc {
+  padding: 10px;
+  text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0px 6px;
+  float: left;
+  width: 19.999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.galleryBreak {
+  content: "";
+  display: table;
+  clear: both;
+}

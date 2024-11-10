@@ -1,0 +1,7 @@
+==  README ==
+
+This folder contains a set of cards prevently generated starting from the dataset
+ _data\cards.csv
+
+You can safely remove all of them, and then regenerate them with .pre-Jekyll.tcl
+
