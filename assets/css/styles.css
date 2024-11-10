@@ -6,7 +6,7 @@ div.card {
 
 .cardImage {
   display: block; /* Removes the space below the image */
-  width: 100%; /* Or any specific width */
+  width: 50%; /* Or any specific width */
   height: auto; /* Maintain aspect ratio */
 }
 
