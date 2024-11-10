@@ -22,6 +22,20 @@ vengono creati:
 ./card-index.html   - Questo e' il modello per la paginazione delle
  schede
 
+
+====  CAricare su GitHub e quindi Pages ... ===
+Naturalmente le modifiche vanno fatte e testate localmente
+
+* Modifificare  dataset e immagini
+*    Rigenerare (tclsh pre-Jekill.tcl)
+* Modificare altro
+* bundle exec jekyll serve
+
+Se tutto va bene caricare su github
+ - Io uso github-desktop
+   - prima faccio commit
+   - poi
+
 # --- generated _site
 
 _site
