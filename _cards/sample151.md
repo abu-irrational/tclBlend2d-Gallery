@@ -1,9 +1,10 @@
 ---
 ID: sample151
-TITLE: "zzz"
-INFO: ".."
+SOURCE: "sample151.tcl"
+TITLE: "Portraits"
+INFO: "<BR>Quick and simple interactive morphing"
 RELATED: ""
-seqNo: 67
+seqNo: 66
 prevID: sample150
 nextID: sample152
 ---

@@ -1,7 +1,8 @@
 ---
 ID: sample113
-TITLE: "A"
-INFO: ".."
+SOURCE: "sample113.tcl"
+TITLE: "Random Shapes"
+INFO: "<BR>random shapes based on Perlin-noise variations"
 RELATED: "sample106"
 seqNo: 24
 prevID: sample112

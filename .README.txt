@@ -33,8 +33,15 @@ Naturalmente le modifiche vanno fatte e testate localmente
 
 Se tutto va bene caricare su github
  - Io uso github-desktop
-   - prima faccio commit
-   - poi
+   - prima faccio commit (locale)
+   - poi Push Commit to the origin remote
+
+Quindi in github
+  Cliccare Actions
+   - Deploy Jekyll site to Pages
+	  Run workflow
+
+Note che un run impiega 2-3 minuti  (hai limite di 2000 minuti/mese)
 
 # --- generated _site
 
@@ -45,3 +52,9 @@ _site
     *.html   (pagination of the card-index file)
   pics
     *.png
+
+
+====
+
+Accesso:
+https://abu-irrational.github.io/tclBlend2d-Gallery/

@@ -1,9 +1,10 @@
 ---
 ID: sample152
-TITLE: "zzz"
-INFO: ".."
+SOURCE: "sample152.tcl"
+TITLE: "Carlos Cruz-Diez (1)"
+INFO: " "
 RELATED: ""
-seqNo: 68
+seqNo: 67
 prevID: sample151
 nextID: sample153
 ---

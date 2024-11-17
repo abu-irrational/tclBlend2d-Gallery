@@ -44,10 +44,10 @@ fconfigure $f -encoding utf-8
 set columns [_getAndSplitCSVline $f]
 
 # expected columns are (in this order):
-#   ID TITLE INFO RELATED
+#   ID SOURCE TITLE INFO RELATED
 
 # check
-set eColumns {ID TITLE INFO RELATED}
+set eColumns {ID SOURCE TITLE INFO RELATED}
 if { $columns != $eColumns } {
 	error "actual columns: <<$columns>> ; expected <<$eColumns>>"
 }
@@ -94,6 +94,7 @@ foreach row $table nextID $nextIDs prevID $prevIDs {
 	set f [open ${CARD_DIR}/${ID}.md w]
 		puts $f "---"
 		puts $f "ID: $ID"
+		puts $f "SOURCE: \"$SOURCE\""
 		puts $f "TITLE: \"$TITLE\""
 		puts $f "INFO: \"$INFO\""
 		puts $f "RELATED: \"$RELATED\""

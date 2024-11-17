@@ -1,9 +1,10 @@
 ---
 ID: sample140
-TITLE: "Annuli."
-INFO: "Annuli bla bla bla"
-RELATED: "sample140b"
-seqNo: 55
+SOURCE: "sample140.tcl"
+TITLE: "Annuli"
+INFO: "<BR>Conical gradients<BR>Animation"
+RELATED: ""
+seqNo: 54
 prevID: sample139
 nextID: sample140b
 ---

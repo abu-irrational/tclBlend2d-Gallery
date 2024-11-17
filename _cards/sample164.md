@@ -1,9 +1,10 @@
 ---
 ID: sample164
-TITLE: "zzz"
-INFO: ".."
+SOURCE: "sample164.tcl"
+TITLE: "Pilula"
+INFO: "<BR>Adapted from an openprocessing.org demo<BR>Animation"
 RELATED: ""
-seqNo: 81
+seqNo: 80
 prevID: sample163
 nextID: 
 ---

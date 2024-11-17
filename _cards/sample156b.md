@@ -1,9 +1,10 @@
 ---
 ID: sample156b
-TITLE: "zzz"
-INFO: ".."
+SOURCE: "sample156b.tcl"
+TITLE: "Strange effect (2)"
+INFO: "<BR>Animation"
 RELATED: ""
-seqNo: 73
+seqNo: 72
 prevID: sample156
 nextID: sample157
 ---

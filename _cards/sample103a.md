@@ -1,7 +1,8 @@
 ---
 ID: sample103a
-TITLE: "Islamic Pattern"
-INFO: "..."
+SOURCE: "sample103a.tcl"
+TITLE: "Islamic Pattern (variant)"
+INFO: "<BR>Heavy use of rotation/scale transformations"
 RELATED: ""
 seqNo: 12
 prevID: sample103

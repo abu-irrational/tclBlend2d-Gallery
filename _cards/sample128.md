@@ -1,7 +1,8 @@
 ---
 ID: sample128
-TITLE: "zzz"
-INFO: ".."
+SOURCE: "sample127.tcl"
+TITLE: "Moving clouds"
+INFO: "<BR>Projection of Perlin-noise<BR>Animation"
 RELATED: ""
 seqNo: 39
 prevID: sample127

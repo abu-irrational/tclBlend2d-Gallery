@@ -1,7 +1,8 @@
 ---
 ID: sample123
-TITLE: "zzz"
-INFO: ".."
+SOURCE: "sample123.tcl"
+TITLE: "Twisted ribbons"
+INFO: "<BR>Adapted from an openprocessing.org demo"
 RELATED: ""
 seqNo: 34
 prevID: sample122

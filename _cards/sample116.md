@@ -1,7 +1,8 @@
 ---
 ID: sample116
-TITLE: "Animation"
-INFO: ".."
+SOURCE: "sample116.tcl"
+TITLE: "Oscillating ribbons"
+INFO: "<BR>Animation<BR>Splines"
 RELATED: ""
 seqNo: 27
 prevID: sample115

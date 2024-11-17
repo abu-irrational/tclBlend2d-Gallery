@@ -1,7 +1,8 @@
 ---
 ID: sample03
-TITLE: "Blend2d.com sample01"
-INFO: "bla bla"
+SOURCE: "sample03.tcl"
+TITLE: "bl_sample_3"
+INFO: "<BR>from blend2d.com, adapted from bl_sample_3.cpp<BR>Pattern textures"
 RELATED: "sample04i sample05 sample06"
 seqNo: 2
 prevID: sample02

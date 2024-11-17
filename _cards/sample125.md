@@ -1,7 +1,8 @@
 ---
 ID: sample125
-TITLE: "zzz"
-INFO: ".."
+SOURCE: "sample125.tcl"
+TITLE: "Grow and shrink"
+INFO: "<BR>Adapted from an openprocessing.org demo<BR>Animation"
 RELATED: ""
 seqNo: 36
 prevID: sample124

@@ -1,83 +1,82 @@
-ID,TITLE,INFO,RELATED
-sample01,"Blend2d.com sample01","bla bla",sample02 sample03 sample04i sample07
-sample02,"Blend2d.com sample01","bla bla",sample03 sample04i sample05
-sample03,"Blend2d.com sample01","bla bla",sample04i sample05 sample06
-sample04i,"Blend2d.com sample01","bla bla",sample01 sample02 sample03
-sample04ii,"Blend2d.com sample01","bla bla",sample01 sample02 sample03
-sample05,"Blend2d.com sample01","bla bla",sample02 sample03 sample04i
-sample06,"Blend2d.com sample01","bla bla",sample02 sample03 sample04i
-sample07,"Blend2d.com sample01","bla bla",sample02 sample03 sample04i
-sample101,"Fonts","bla bla",sample07 sample101a
-sample101a,"Glyphs","bla bla",sample07 sample101
-sample102,"Cubicles","..."
-sample103,"Islamic Pattern","..."
-sample103a,"Islamic Pattern","..."
-sample103b,"Islamic Pattern","..."
-sample104,"Islamic Pattern","..."
-sample105,"SVG",".."
-sample105.1,"SVG",".."
-sample106,"Space Furball",".."
-sample107,"Animation",".."
-sample108,"Animation",".."
-sample109,"Animation",".."
-sample110,"Animation",".."
-sample111,"Shadows",".."
-sample112,"Shadows",".."
-sample113,"A","..",sample106
-sample114,"Where's the top card?",".."
-sample115,"Animation",".."
-sample116,"Animation",".."
-sample117,"Text Anchors",".."
-sample118,"Text Anchor",".."
-sample119,"Splines","..."
-sample120,"Anim",".."
-sample121,"blur",".."
-sample122,"zzz",".."
-sample123,"zzz",".."
-sample124,"zzz",".."
-sample125,"zzz",".."
-sample126,"zzz",".."
-sample127,"zzz",".."
-sample128,"zzz",".."
-sample128a,"zzz",".."
-sample129a,"s129B","bla bla",sample129
-sample129,"s129B","bla bla",sample129a sample129b
-sample129b,"s129B","bla bla",sample129a
-sample130,"zzz",".."
-sample130a,"zzz",".."
-sample131,"zzz",".."
-sample132,"zzz",".."
-sample133,"zzz",".."
-sample134,"zzz",".."
-sample135,"zzz",".."
-sample136,"zzz",".."
-sample137,"zzz",".."
-sample138,"zzz",".."
-sample139,"zzz",".."
-sample140,"Annuli.","Annuli bla bla bla",sample140b
-sample140b,"Annuli Rotten","Johnny Rotten",sample140 sample141
-sample141,"title for s141","bla bla",sample140b sample141
-sample142,"title for s142.","KK2 bla bla bla",sample141
-sample143,"s143 xx","s13 bla bla"
-sample144,"zzz",".."
-sample145,"zzz",".."
-sample146,"zzz",".."
-sample147,"zzz",".."
-sample148,"zzz",".."
-sample149,"zzz",".."
-sample150,"zzz",".."
-sample151,"zzz",".."
-sample152,"zzz",".."
-sample153,"zzz",".."
-sample154,"zzz",".."
-sample155,"zzz",".."
-sample156,"zzz",".."
-sample156b,"zzz",".."
-sample157,"zzz",".."
-sample158,"zzz",".."
-sample159,"Foam",".."
-sample160,"Medusa",".."
-sample161,"zzz",".."
-sample162,"zzz",".."
-sample163,"zzz",".."
-sample164,"zzz",".."
+ID,SOURCE,TITLE,INFO,RELATED
+sample01,sample01.tcl,"bl_sample_1","<BR>from blend2d.com, adapted from bl_sample_1.cpp<BR>Cubic curves",sample02 sample03 sample04i sample07
+sample02,sample02.tcl,"bl_sample_2","<BR>from blend2d.com, adapted from bl_sample_2.cpp<BR>Linear gradient",sample03 sample04i sample05
+sample03,sample03.tcl,"bl_sample_3","<BR>from blend2d.com, adapted from bl_sample_3.cpp<BR>Pattern textures",sample04i sample05 sample06
+sample04i,sample04i.tcl,"bl_sample_4","<BR>from blend2d.com, adapted from bl_sample_4.cpp<BR>Pattern textures<BR>Rotation<BR>Animation",sample01 sample02 sample03
+sample04ii,sample04ii.tcl,"bl_sample_4 (variant)","<BR>from blend2d.com, adapted from bl_sample_4.cpp<BR>Two widgets sharing the same dynamic image",sample01 sample02 sample03
+sample05,sample05.tcl,"bl_sample_05","<BR>from blend2d.com, adapted from bl_sample_5.cpp<BR>Linear and radial gradient<BR>Porter-Duff blending",sample02 sample03 sample04i
+sample06,sample06.tcl,"bl_sample_06","<BR>from blend2d.com, adapted from bl_sample_6.cpp<BR>A thick stroke filled with a gradient",sample02 sample03 sample04i
+sample07,sample07.tcl,"bl_sample_07","<BR>from blend2d.com, adapted from bl_sample_7.cpp<BR>Simple text",sample02 sample03 sample04i
+sample101,sample101.tcl,"Glyph","<BR>Extracting the geometry from a font's glyph<BR>countours, normal, tangents",sample07 sample101a
+sample101a,sample101a.tcl,"Contour subdivision","<BR>Two ways to move a point on a curve",sample07 sample101
+sample102,sample102.tcl,"Cubicles","<BR>A cube made of may semitransparent small cubes<BR>Animation"
+sample103,sample103.tcl,"Islamic Pattern","<BR>True shadows<BR>Heavy use of rotation/scale transformations"
+sample103a,sample103a.tcl,"Islamic Pattern (variant)","<BR>Heavy use of rotation/scale transformations"
+sample103b,sample103b.tcl,"Islamic Pattern (variant)","<BR>Rotation of texture pattern"
+sample104,sample104.tcl,"Hand-drawn lines","<BR>Experiment for drawing pseudo hand-drawn lines<BR>Simple rectangle hatching"
+sample105,sample105.tcl,"Simple SVG","<BR>Loading and parsing a very simple SVG file<BR>Resizable in real-time"
+sample105.1,sample105-1.tcl,"Simple SVG (variant)","<BR>Full SVG parsing<BR>This demo makes use of the new BL::SvgDoc class.."
+sample106,sample106.tcl,"Electric Furball","<BR>Adapted from an openprocessing.org demo"
+sample107,sample107.tcl,"Kaleidoscope","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample108,sample108.tcl,"Oscilloscope","<BR>Adapted from an openprocessing.org demo<BR>Using Splines for drawing damped waves"
+sample109,sample109.tcl,"Blobs","<BR>Adapted from an openprocessing.org demo<BR>Splines<BR>Perlin noise"
+sample110,sample110.tcl,"Dancing blobs","<BR>Adapted from an openprocessing.org demo"
+sample111,sample111.tcl,"Layered Shadows","Composition of many SVG shapes with shadows.<BR>Interactive"
+sample112,sample112.tcl,"Shadows","<BR>Interactive setting of shadow direction"
+sample113,sample113.tcl,"Random Shapes","<BR>random shapes based on Perlin-noise variations",sample106
+sample114,sample114.tcl,"Cards","<BR>Where's the top card?"
+sample115,sample115.tcl,"Ribbons","<BR>Large ribbons<BR>Splines<BR>Shadow effect"
+sample116,sample116.tcl,"Oscillating ribbons","<BR>Animation<BR>Splines"
+sample117,sample117.tcl,"Text Anchors","<BR>Text and anchor points"
+sample118,sample118.tcl,"Text Rotation","<BR>Simple rotation around text center"
+sample119,sample119.tcl,"Splines","<BR>Illustration of spline features:<BR>canonical spline<BR>extended spline<BR>closed spline<BR>splines with angular control points.."
+sample120,sample120.tcl,"Spline subdivision","<BR>Gradient along a curve<BR>Animation"
+sample121,sample121.tcl,"Sea Waves","<BR>Smooth animation of waves<BR>Blurred waves for a simple depth of field effect"
+sample122,sample122.tcl,"Curve Subdivision","Illustration of two ways to subdivide a curve"
+sample123,sample123.tcl,"Twisted ribbons","<BR>Adapted from an openprocessing.org demo"
+sample124,sample124.tcl,"Circles and offsets","<BR>Using the DST_OVER composition for drawing 'under'"
+sample125,sample125.tcl,"Grow and shrink","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample126,sample126.tcl,"Twisted squares","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample127,sample127.tcl,"Random Spheres","<BR>Spheres as circles with gradients<BR>Shadows"
+sample128,sample127.tcl,"Moving clouds","<BR>Projection of Perlin-noise<BR>Animation"
+sample128a,sample128a.tcl,"Moving clouds (variant)","<BR>Projection of Perlin-noise<BR>Animation"
+sample129a,sample129a.tcl,"Candy pencil","<BR>Interactive",sample129b
+sample129b,sample129b.tcl,"s129B","<BR>Four different brushes<BR>Interactive",sample129a sample129a
+sample130,sample130.tcl,"Truchet Tiles","<BR>Hexagonal tiles<BR>Interactive animation"
+sample130a,sample130a.tcl,"Truchet tiles (variant)","<BR>Hexagonal tiles<BR>Interactive animation"
+sample131,sample131.tcl,"Truchet multiscale tiles","<BR>Continuos scrolling animation"
+sample132,sample132.tcl,"Truchet multiscale tiles (variant)","<BR>Interactive animation"
+sample133,sample133.tcl,"Truchet triangular tiles","<BR>random generation"
+sample134,sample134.tcl,"Optical composition"," "
+sample135,sample135.tcl,"Optical composition"," "
+sample136,sample136.tcl,"RGB Waves","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample137,sample137.tcl,"Wall of cubes","<BR>Interactive."
+sample138,sample138.tcl,"Impossible Triangle","<BR>Playing with 2D you can create impossible worlds."
+sample139,sample139.tcl,"Optical composition"," "
+sample140,sample140.tcl,"Annuli","<BR>Conical gradients<BR>Animation"
+sample140b,sample140b.tcl,"Annuli.","Annuli with textures<BR>Animation",sample140b
+sample141,sample141.tcl,"Logarithmic spiral","<BR>Splines<BR>Animation",sample140b sample141
+sample142,sample142.tcl,"Optical rotation","<BR>Animation",sample141
+sample143,sample143.tcl,"Test","<BR>A small GUI for testing the 'autoresize' feature of the 'paint' method'"
+sample144,sample144.tcl,"Random Tiles","<BR>4 different square-tiles, randomly rotated"
+sample145,sample145.tcl,"Eclipse","<BR>Adapted from an openprocessing.org demo<BR>Blur effect"
+sample146,sample146.tcl,"Moon","<BR>Adapted from an openprocessing.org demo"
+sample147,sample147.tcl,"Trifoil Knot","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample148,sample148.tcl,"Infinite","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample149,sample149.tcl,"Gum","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample150,sample150.tcl,"Roots","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample151,sample151.tcl,"Portraits","<BR>Quick and simple interactive morphing"
+sample152,sample152.tcl,"Carlos Cruz-Diez (1)"," "
+sample153,sample153.tcl,"Carlos Cruz-Diez (2)"," "
+sample154,sample154.tcl,"Carlos Cruz-Diez (3)"," "
+sample155,sample155.tcl,"Carlos Cruz-Diez (4)"," "
+sample156,sample156.tcl,"Strange effect (1)","<BR>Animation"
+sample156b,sample156b.tcl,"Strange effect (2)","<BR>Animation"
+sample157,sample157.tcl,"Moss","<BR>Animation"
+sample158,sample158.tcl,"Flowers","<BR>Animation"
+sample159,sample159.tcl,"Foam","<BR>Animation"
+sample160,sample160.tcl,"Medusa","<BR>Animation"
+sample161,sample161.tcl,"Worm","<BR>Intercative animation"
+sample162,sample162.tcl,"Organificial","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample163,sample163.tcl,"Visceral","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample164,sample164.tcl,"Pilula","<BR>Adapted from an openprocessing.org demo<BR>Animation"

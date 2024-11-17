@@ -1,84 +1,82 @@
-/* == Card Image with up, next, prev arrows === */
-div.card {
-  position: relative;
-  display: inline-block; /* Ensure image and buttons stay together */
+body {
+	font-family: "Verdana";
 }
 
-.cardImage {
-  display: block; /* Removes the space below the image */
-  width: 70%; /* Or any specific width */
-  height: auto; /* Maintain aspect ratio */
+/* == Card Image with up, next, prev arrows === */
+
+div.cardImageContainer {
+    height: 250px ; /* Fixed size */
+    ###width: auto; /* Fixed size */
+    position: relative;
 }
+
+div.cardImageContainer img {
+	###width: 100%;
+	height: 100%;
+	transition: transform 0.9s ease;
+	transform-origin: center top; /* Center the zoom */
+}
+
+div.cardImageContainer:hover img {
+    transform: none; /* Reset transform */
+}
+
 
 .prevCard, .nextCard {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%); /* Adjust for exact center alignment */
-  padding: 16px;
-  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
-  color: white;
-  font-weight: bold;
-  font-size: 32px;
-  border: none;
-  transition: 0.6s ease;
-  cursor: pointer;
-  text-decoration: none;
+	transition: transform 0.2s; /* Animation */
+	position: absolute;
+	top: 25%;
+	cursor: pointer;
 }
 
 .nextCard {
-  right: 10px;
-  border-radius: 3px 0 0 3px;
+	right: 10px;
 }
 .prevCard {
-  left: 10px;
-  border-radius: 3px 0 0 3px;
+	left: 10px;
+}
+.upCard {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
 }
 
 
-.indexPageRef {
-  position: absolute;
-  top: 0%;
-  left: 50%; /* Center vertically */
-  transform: translateX(-50%); /* Adjust for exact center alignment */
-  padding: 16px;
-  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
-  color: white;
-  font-weight: bold;
-  font-size: 32px;
-  border: none;
-  transition: 0.6s ease;
-  cursor: pointer;
-  text-decoration: none;
+/* poi fai unica classe prevnext ...   */
+.prevCard:hover, .nextCard:hover, .upCard:hover {
+	transform: scale(1.2);
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prevCard:hover, .nextCard:hover {
-  background-color: rgba(0,0,0,0.8);
+.seeAlsoContainer {
+    display: flex;
+    align-items: center;
+}
+.seeAlsoImages {
+    display: flex;
+}
+.seeAlsoImages img {
+    xxxmargin-left: 10px; /* Space between images */
 }
 
+.seeAlsoImage {
+   margin-left: 10px; /* Space between images */
 
-/*  ?? non so se funziona fade */
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 3.5s;
+	transition: transform 0.2s; /* Animation */
 }
-
-@keyframes fade {
-  from {opacity: .1}
-  to {opacity: 1}
+.seeAlsoImage:hover {
+	transform: scale(1.2);
 }
-
 
 /* == pagination == */
- /* ?? ma perche' non inizia a capo ??  sull'ultima pagina .. */
+
 div.pagination {
 	display: block;
+	height: 60px;
 }
 
 div.pagination a {
   color: black;
-  float: left;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -97,29 +95,27 @@ div.pagination a:hover:not(.active) {
 /* == thumbnails in pagination pages == */
 
 div.thumb {
-  border: 1px solid #ccc;
+	transition: transform 0.2s; /* Animation */
 }
 
 div.thumb:hover {
-  border: 1px solid #777;
+	transform: scale(1.1);
 }
 
 div.thumb img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  xxxwidth: 100%;
-  xxxheight: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 div.thumb .desc {
-  padding: 10px;
-  text-align: center;
+	padding: 10px;
+	text-align: center;
 }
 
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .responsive {

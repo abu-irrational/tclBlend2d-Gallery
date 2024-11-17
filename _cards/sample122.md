@@ -1,7 +1,8 @@
 ---
 ID: sample122
-TITLE: "zzz"
-INFO: ".."
+SOURCE: "sample122.tcl"
+TITLE: "Curve Subdivision"
+INFO: "Illustration of two ways to subdivide a curve"
 RELATED: ""
 seqNo: 33
 prevID: sample121

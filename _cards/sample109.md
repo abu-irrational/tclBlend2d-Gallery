@@ -1,7 +1,8 @@
 ---
 ID: sample109
-TITLE: "Animation"
-INFO: ".."
+SOURCE: "sample109.tcl"
+TITLE: "Blobs"
+INFO: "<BR>Adapted from an openprocessing.org demo<BR>Splines<BR>Perlin noise"
 RELATED: ""
 seqNo: 20
 prevID: sample108

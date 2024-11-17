@@ -1,7 +1,8 @@
 ---
 ID: sample124
-TITLE: "zzz"
-INFO: ".."
+SOURCE: "sample124.tcl"
+TITLE: "Circles and offsets"
+INFO: "<BR>Using the DST_OVER composition for drawing 'under'"
 RELATED: ""
 seqNo: 35
 prevID: sample123

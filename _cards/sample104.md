@@ -1,7 +1,8 @@
 ---
 ID: sample104
-TITLE: "Islamic Pattern"
-INFO: "..."
+SOURCE: "sample104.tcl"
+TITLE: "Hand-drawn lines"
+INFO: "<BR>Experiment for drawing pseudo hand-drawn lines<BR>Simple rectangle hatching"
 RELATED: ""
 seqNo: 14
 prevID: sample103b

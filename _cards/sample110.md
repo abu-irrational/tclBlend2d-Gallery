@@ -1,7 +1,8 @@
 ---
 ID: sample110
-TITLE: "Animation"
-INFO: ".."
+SOURCE: "sample110.tcl"
+TITLE: "Dancing blobs"
+INFO: "<BR>Adapted from an openprocessing.org demo"
 RELATED: ""
 seqNo: 21
 prevID: sample109

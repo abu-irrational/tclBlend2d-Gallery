@@ -1,7 +1,8 @@
 ---
 ID: sample114
-TITLE: "Where's the top card?"
-INFO: ".."
+SOURCE: "sample114.tcl"
+TITLE: "Cards"
+INFO: "<BR>Where's the top card?"
 RELATED: ""
 seqNo: 25
 prevID: sample113

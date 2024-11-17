@@ -1,7 +1,8 @@
 ---
 ID: sample126
-TITLE: "zzz"
-INFO: ".."
+SOURCE: "sample126.tcl"
+TITLE: "Twisted squares"
+INFO: "<BR>Adapted from an openprocessing.org demo<BR>Animation"
 RELATED: ""
 seqNo: 37
 prevID: sample125

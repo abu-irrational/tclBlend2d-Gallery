@@ -1,7 +1,8 @@
 ---
 ID: sample121
-TITLE: "blur"
-INFO: ".."
+SOURCE: "sample121.tcl"
+TITLE: "Sea Waves"
+INFO: "<BR>Smooth animation of waves<BR>Blurred waves for a simple depth of field effect"
 RELATED: ""
 seqNo: 32
 prevID: sample120

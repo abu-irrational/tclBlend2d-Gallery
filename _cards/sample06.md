@@ -1,7 +1,8 @@
 ---
 ID: sample06
-TITLE: "Blend2d.com sample01"
-INFO: "bla bla"
+SOURCE: "sample06.tcl"
+TITLE: "bl_sample_06"
+INFO: "<BR>from blend2d.com, adapted from bl_sample_6.cpp<BR>A thick stroke filled with a gradient"
 RELATED: "sample02 sample03 sample04i"
 seqNo: 6
 prevID: sample05

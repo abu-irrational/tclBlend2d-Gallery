@@ -1,7 +1,8 @@
 ---
 ID: sample112
+SOURCE: "sample112.tcl"
 TITLE: "Shadows"
-INFO: ".."
+INFO: "<BR>Interactive setting of shadow direction"
 RELATED: ""
 seqNo: 23
 prevID: sample111

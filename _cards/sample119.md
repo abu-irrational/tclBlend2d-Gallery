@@ -1,7 +1,8 @@
 ---
 ID: sample119
+SOURCE: "sample119.tcl"
 TITLE: "Splines"
-INFO: "..."
+INFO: "<BR>Illustration of spline features:<BR>canonical spline<BR>extended spline<BR>closed spline<BR>splines with angular control points.."
 RELATED: ""
 seqNo: 30
 prevID: sample118

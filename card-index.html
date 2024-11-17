@@ -8,10 +8,26 @@ pagination:
   permalink: 'pageidx/:num.html'
 #  per_page: XX  # defined in _config.yml
   trail:
-    before: 3 # The number of links before the current page
-    after: 3  # The number of links after the current page
+    before: 20 # The number of links before the current page
+    after: 20  # The number of links after the current page
 ---
-<h1>Generated pages gallery</h1>
+<center>
+<h1>tclBlend2d Gallery ({{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}})</h1>
+</center>
+
+{% if paginator.page_trail %}
+<center>
+<div class="pagination">
+  {% for trail in paginator.page_trail %}
+	<a href="{{ trail.path | relative_url }}"
+	    {% if page.url == trail.path %} class="active"{% endif %}
+	>{{trail.num}}</a>
+  {% endfor %}
+</div>
+</center>
+{% endif %}
+
+<div class="galleryBreak"></div>
 
 <div>
 {% for xcard in paginator.posts %}
@@ -30,14 +46,4 @@ pagination:
 {% endfor %}
 </div>
 
- // ma perche' nell'ultima page (9?)  non va a capo
-
-{% if paginator.page_trail %}
-<div class="pagination">
-  {% for trail in paginator.page_trail %}
-	<a href="{{ trail.path | relative_url }}"
-	    {% if page.url == trail.path %} class="active"{% endif %}
-	>{{trail.num}}</a>
-  {% endfor %}
-</div>
-{% endif %}
+<div class="galleryBreak"></div>

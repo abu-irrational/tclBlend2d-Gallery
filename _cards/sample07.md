@@ -1,7 +1,8 @@
 ---
 ID: sample07
-TITLE: "Blend2d.com sample01"
-INFO: "bla bla"
+SOURCE: "sample07.tcl"
+TITLE: "bl_sample_07"
+INFO: "<BR>from blend2d.com, adapted from bl_sample_7.cpp<BR>Simple text"
 RELATED: "sample02 sample03 sample04i"
 seqNo: 7
 prevID: sample06

@@ -1,9 +1,10 @@
 ---
 ID: sample130
-TITLE: "zzz"
-INFO: ".."
+SOURCE: "sample130.tcl"
+TITLE: "Truchet Tiles"
+INFO: "<BR>Hexagonal tiles<BR>Interactive animation"
 RELATED: ""
-seqNo: 44
+seqNo: 43
 prevID: sample129b
 nextID: sample130a
 ---

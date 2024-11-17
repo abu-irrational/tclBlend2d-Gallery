@@ -1,7 +1,8 @@
 ---
 ID: sample118
-TITLE: "Text Anchor"
-INFO: ".."
+SOURCE: "sample118.tcl"
+TITLE: "Text Rotation"
+INFO: "<BR>Simple rotation around text center"
 RELATED: ""
 seqNo: 29
 prevID: sample117

@@ -1,9 +1,10 @@
 ---
 ID: sample141
-TITLE: "title for s141"
-INFO: "bla bla"
+SOURCE: "sample141.tcl"
+TITLE: "Logarithmic spiral"
+INFO: "<BR>Splines<BR>Animation"
 RELATED: "sample140b sample141"
-seqNo: 57
+seqNo: 56
 prevID: sample140b
 nextID: sample142
 ---

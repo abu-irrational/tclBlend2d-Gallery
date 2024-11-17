@@ -1,7 +1,8 @@
 ---
 ID: sample103b
-TITLE: "Islamic Pattern"
-INFO: "..."
+SOURCE: "sample103b.tcl"
+TITLE: "Islamic Pattern (variant)"
+INFO: "<BR>Rotation of texture pattern"
 RELATED: ""
 seqNo: 13
 prevID: sample103a

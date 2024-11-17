@@ -1,9 +1,10 @@
 ---
 ID: sample129a
-TITLE: "s129B"
-INFO: "bla bla"
-RELATED: "sample129"
-seqNo: 42
-prevID: sample129
+SOURCE: "sample129a.tcl"
+TITLE: "Candy pencil"
+INFO: "<BR>Interactive"
+RELATED: "sample129b"
+seqNo: 41
+prevID: sample128a
 nextID: sample129b
 ---
