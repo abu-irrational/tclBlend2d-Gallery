@@ -4,7 +4,7 @@ SOURCE: "sample141.tcl"
 TITLE: "Logarithmic spiral"
 INFO: "<BR>Splines<BR>Animation"
 RELATED: "sample140b sample141"
-seqNo: 56
+seqNo: 57
 prevID: sample140b
 nextID: sample142
 ---

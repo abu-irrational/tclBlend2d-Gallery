@@ -4,7 +4,7 @@ SOURCE: "sample151.tcl"
 TITLE: "Portraits"
 INFO: "<BR>Quick and simple interactive morphing"
 RELATED: ""
-seqNo: 66
+seqNo: 67
 prevID: sample150
 nextID: sample152
 ---

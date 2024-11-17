@@ -4,7 +4,7 @@ SOURCE: "sample104.tcl"
 TITLE: "Hand-drawn lines"
 INFO: "<BR>Experiment for drawing pseudo hand-drawn lines<BR>Simple rectangle hatching"
 RELATED: ""
-seqNo: 14
+seqNo: 15
 prevID: sample103b
 nextID: sample105
 ---

@@ -1,12 +1,13 @@
 ID,SOURCE,TITLE,INFO,RELATED
-sample01,sample01.tcl,"bl_sample_1","<BR>from blend2d.com, adapted from bl_sample_1.cpp<BR>Cubic curves",sample02 sample03 sample04i sample07
-sample02,sample02.tcl,"bl_sample_2","<BR>from blend2d.com, adapted from bl_sample_2.cpp<BR>Linear gradient",sample03 sample04i sample05
-sample03,sample03.tcl,"bl_sample_3","<BR>from blend2d.com, adapted from bl_sample_3.cpp<BR>Pattern textures",sample04i sample05 sample06
+sample01,sample01.tcl,"bl_sample_1","<BR>from blend2d.com, adapted from bl_sample_1.cpp<BR>Cubic curves",sample02 sample03 sample04i sample05 sample06 sample07
+sample02,sample02.tcl,"bl_sample_2","<BR>from blend2d.com, adapted from bl_sample_2.cpp<BR>Linear gradient",sample01 sample03 sample04i sample05 sample06
+sample03,sample03.tcl,"bl_sample_3","<BR>from blend2d.com, adapted from bl_sample_3.cpp<BR>Pattern textures",sample01 sample04i sample05 sample06
 sample04i,sample04i.tcl,"bl_sample_4","<BR>from blend2d.com, adapted from bl_sample_4.cpp<BR>Pattern textures<BR>Rotation<BR>Animation",sample01 sample02 sample03
 sample04ii,sample04ii.tcl,"bl_sample_4 (variant)","<BR>from blend2d.com, adapted from bl_sample_4.cpp<BR>Two widgets sharing the same dynamic image",sample01 sample02 sample03
 sample05,sample05.tcl,"bl_sample_05","<BR>from blend2d.com, adapted from bl_sample_5.cpp<BR>Linear and radial gradient<BR>Porter-Duff blending",sample02 sample03 sample04i
 sample06,sample06.tcl,"bl_sample_06","<BR>from blend2d.com, adapted from bl_sample_6.cpp<BR>A thick stroke filled with a gradient",sample02 sample03 sample04i
 sample07,sample07.tcl,"bl_sample_07","<BR>from blend2d.com, adapted from bl_sample_7.cpp<BR>Simple text",sample02 sample03 sample04i
+sample08,sample08.tcl,"Gradients","<BR>Conical Gradients",sample02 sample06 sample140 sample164
 sample101,sample101.tcl,"Glyph","<BR>Extracting the geometry from a font's glyph<BR>countours, normal, tangents",sample07 sample101a
 sample101a,sample101a.tcl,"Contour subdivision","<BR>Two ways to move a point on a curve",sample07 sample101
 sample102,sample102.tcl,"Cubicles","<BR>A cube made of may semitransparent small cubes<BR>Animation"
@@ -50,7 +51,7 @@ sample133,sample133.tcl,"Truchet triangular tiles","<BR>random generation"
 sample134,sample134.tcl,"Optical composition"," "
 sample135,sample135.tcl,"Optical composition"," "
 sample136,sample136.tcl,"RGB Waves","<BR>Adapted from an openprocessing.org demo<BR>Animation"
-sample137,sample137.tcl,"Wall of cubes","<BR>Interactive."
+sample137,sample137.tcl,"Wall of cubes","<BR>Interactive.",sample130 sample130a
 sample138,sample138.tcl,"Impossible Triangle","<BR>Playing with 2D you can create impossible worlds."
 sample139,sample139.tcl,"Optical composition"," "
 sample140,sample140.tcl,"Annuli","<BR>Conical gradients<BR>Animation"
@@ -66,17 +67,17 @@ sample148,sample148.tcl,"Infinite","<BR>Adapted from an openprocessing.org demo<
 sample149,sample149.tcl,"Gum","<BR>Adapted from an openprocessing.org demo<BR>Animation"
 sample150,sample150.tcl,"Roots","<BR>Adapted from an openprocessing.org demo<BR>Animation"
 sample151,sample151.tcl,"Portraits","<BR>Quick and simple interactive morphing"
-sample152,sample152.tcl,"Carlos Cruz-Diez (1)"," "
-sample153,sample153.tcl,"Carlos Cruz-Diez (2)"," "
-sample154,sample154.tcl,"Carlos Cruz-Diez (3)"," "
-sample155,sample155.tcl,"Carlos Cruz-Diez (4)"," "
-sample156,sample156.tcl,"Strange effect (1)","<BR>Animation"
+sample152,sample152.tcl,"Carlos Cruz-Diez (1)"," ",sample153 sample154 sample155
+sample153,sample153.tcl,"Carlos Cruz-Diez (2)"," ",sample152 sample154 sample155
+sample154,sample154.tcl,"Carlos Cruz-Diez (3)"," ",sample152 sample153 sample155
+sample155,sample155.tcl,"Carlos Cruz-Diez (4)"," ",sample152 sample153 sample154
+sample156,sample156.tcl,"Strange effect (1)","<BR>Animation",sample161
 sample156b,sample156b.tcl,"Strange effect (2)","<BR>Animation"
 sample157,sample157.tcl,"Moss","<BR>Animation"
 sample158,sample158.tcl,"Flowers","<BR>Animation"
 sample159,sample159.tcl,"Foam","<BR>Animation"
 sample160,sample160.tcl,"Medusa","<BR>Animation"
-sample161,sample161.tcl,"Worm","<BR>Intercative animation"
+sample161,sample161.tcl,"Worm","<BR>Interactive animation",sample156
 sample162,sample162.tcl,"Organificial","<BR>Adapted from an openprocessing.org demo<BR>Animation"
 sample163,sample163.tcl,"Visceral","<BR>Adapted from an openprocessing.org demo<BR>Animation"
 sample164,sample164.tcl,"Pilula","<BR>Adapted from an openprocessing.org demo<BR>Animation"

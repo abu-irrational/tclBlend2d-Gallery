@@ -6,5 +6,5 @@ INFO: "<BR>from blend2d.com, adapted from bl_sample_7.cpp<BR>Simple text"
 RELATED: "sample02 sample03 sample04i"
 seqNo: 7
 prevID: sample06
-nextID: sample101
+nextID: sample08
 ---

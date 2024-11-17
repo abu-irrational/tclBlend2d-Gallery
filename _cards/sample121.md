@@ -4,7 +4,7 @@ SOURCE: "sample121.tcl"
 TITLE: "Sea Waves"
 INFO: "<BR>Smooth animation of waves<BR>Blurred waves for a simple depth of field effect"
 RELATED: ""
-seqNo: 32
+seqNo: 33
 prevID: sample120
 nextID: sample122
 ---
