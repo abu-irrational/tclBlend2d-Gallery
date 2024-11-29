@@ -4,7 +4,7 @@ SOURCE: "sample123.tcl"
 TITLE: "Twisted ribbons"
 INFO: "<BR>Adapted from an openprocessing.org demo"
 RELATED: ""
-seqNo: 35
+seqNo: 42
 prevID: sample122
 nextID: sample124
 ---

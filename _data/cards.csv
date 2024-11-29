@@ -8,6 +8,13 @@ sample05,sample05.tcl,"bl_sample_05","<BR>from blend2d.com, adapted from bl_samp
 sample06,sample06.tcl,"bl_sample_06","<BR>from blend2d.com, adapted from bl_sample_6.cpp<BR>A thick stroke filled with a gradient",sample02 sample03 sample04i
 sample07,sample07.tcl,"bl_sample_07","<BR>from blend2d.com, adapted from bl_sample_7.cpp<BR>Simple text",sample02 sample03 sample04i
 sample08,sample08.tcl,"Gradients","<BR>Conical Gradients",sample02 sample06 sample140 sample164
+sample010,sample010.tcl,"Fading shapes","<BR>Animation"
+sample011,sample011.tcl,"Fast Moving squares","<BR>Demo for threads<BR>Animation"
+sample012,sample012.tcl,"Composition Operations","<BR>Test for composition modes"
+sample013,sample013.tcl,"Porter-Duff composition demo","<BR>Porting of a nice demo about composition modes"
+sample014,sample014.tcl,"Tiger","<BR>Demo of a classic vectorial image<BR>data extracted and pre-processed from a SVG image<BR>Interactive Animation",sample015 sample106
+sample015,sample015.tcl,"Tiger deformations","<BR>Perspective transformation over aa classic vectorial image<BR>data extracted and pre-processed from a SVG image<BR>Interactive Animation",sample014 sample106
+sample016,sample016.tcl,"Tiger SVG","<BR>Tiger SVG<BR>using BL::Svgdoc for loading on-fly the SVG image<BR>Interactive Animation",sample014 sample105
 sample101,sample101.tcl,"Glyph","<BR>Extracting the geometry from a font's glyph<BR>countours, normal, tangents",sample07 sample101a
 sample101a,sample101a.tcl,"Contour subdivision","<BR>Two ways to move a point on a curve",sample07 sample101
 sample102,sample102.tcl,"Cubicles","<BR>A cube made of may semitransparent small cubes<BR>Animation"
@@ -81,3 +88,9 @@ sample161,sample161.tcl,"Worm","<BR>Interactive animation",sample156
 sample162,sample162.tcl,"Organificial","<BR>Adapted from an openprocessing.org demo<BR>Animation"
 sample163,sample163.tcl,"Visceral","<BR>Adapted from an openprocessing.org demo<BR>Animation"
 sample164,sample164.tcl,"Pilula","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample165,sample165.tcl,"Sunflower","<BR>Adapted from an openprocessing.org demo<BR>Animation"
+sample166,sample166.tcl,"Harriss Spiral","<BR>Step by step animation",sample166X
+sample166X,sample166X.tcl,"Basic Harriss Spiral","<BR>Basic Harriss Spiral",sample166
+sample167,sample167.tcl,"Cohaxial Variations","Adapted from an openprocessing.org demo<BR>Animation",sample168
+sample168,sample168.tcl,"Cohaxial Rotating Spiral","Variation of sample167<BR>Animation",sample167
+

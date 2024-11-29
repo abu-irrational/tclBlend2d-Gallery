@@ -4,7 +4,7 @@ SOURCE: "sample133.tcl"
 TITLE: "Truchet triangular tiles"
 INFO: "<BR>random generation"
 RELATED: ""
-seqNo: 48
+seqNo: 55
 prevID: sample132
 nextID: sample134
 ---

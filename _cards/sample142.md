@@ -4,7 +4,7 @@ SOURCE: "sample142.tcl"
 TITLE: "Optical rotation"
 INFO: "<BR>Animation"
 RELATED: "sample141"
-seqNo: 58
+seqNo: 65
 prevID: sample141
 nextID: sample143
 ---

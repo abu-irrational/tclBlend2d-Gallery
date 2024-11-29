@@ -4,7 +4,7 @@ SOURCE: "sample156b.tcl"
 TITLE: "Strange effect (2)"
 INFO: "<BR>Animation"
 RELATED: ""
-seqNo: 73
+seqNo: 80
 prevID: sample156
 nextID: sample157
 ---

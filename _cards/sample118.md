@@ -4,7 +4,7 @@ SOURCE: "sample118.tcl"
 TITLE: "Text Rotation"
 INFO: "<BR>Simple rotation around text center"
 RELATED: ""
-seqNo: 30
+seqNo: 37
 prevID: sample117
 nextID: sample119
 ---

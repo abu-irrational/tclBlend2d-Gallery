@@ -4,7 +4,7 @@ SOURCE: "sample117.tcl"
 TITLE: "Text Anchors"
 INFO: "<BR>Text and anchor points"
 RELATED: ""
-seqNo: 29
+seqNo: 36
 prevID: sample116
 nextID: sample118
 ---

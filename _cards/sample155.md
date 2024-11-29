@@ -4,7 +4,7 @@ SOURCE: "sample155.tcl"
 TITLE: "Carlos Cruz-Diez (4)"
 INFO: " "
 RELATED: "sample152 sample153 sample154"
-seqNo: 71
+seqNo: 78
 prevID: sample154
 nextID: sample156
 ---

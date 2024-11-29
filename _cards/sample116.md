@@ -4,7 +4,7 @@ SOURCE: "sample116.tcl"
 TITLE: "Oscillating ribbons"
 INFO: "<BR>Animation<BR>Splines"
 RELATED: ""
-seqNo: 28
+seqNo: 35
 prevID: sample115
 nextID: sample117
 ---
