@@ -34,7 +34,13 @@ proc _getAndSplitCSVline {f {multilineSubString "\n"}} {
 }
 
 # ===
-# == load CSV dataset; sort by ID
+# ===  first step: scan the CSV dataset for TAGS
+# ===  and build a table of SeeAlso(ID)
+# ===  This table will be used with the second CSV scan for generating the *.md files
+# ===
+
+# ===
+# == load CSV dataset in memory ->  table
 # ===
 set table {}
 set f [open $DATASET "r"]
@@ -44,10 +50,10 @@ fconfigure $f -encoding utf-8
 set columns [_getAndSplitCSVline $f]
 
 # expected columns are (in this order):
-#   ID SOURCE TITLE INFO RELATED
+#   ID SOURCE TITLE INFO TAGS
 
 # check
-set eColumns {ID SOURCE TITLE INFO RELATED}
+set eColumns {ID SOURCE TITLE INFO TAGS}
 if { $columns != $eColumns } {
 	error "actual columns: <<$columns>> ; expected <<$eColumns>>"
 }
@@ -61,6 +67,35 @@ close $f
 
 # sort table on the 0th column (column "ID")
 set table [lsort -index 0 $table]
+
+# == collect tags and
+foreach row $table {
+	lassign $row {*}$columns  ;# -> ID .. TAGS
+	foreach tag $TAGS {
+		lappend xtag([string toupper $tag]) $ID
+	}
+}
+puts "List of found tags:"
+puts "-------------------"
+foreach tag [lsort [array names xtag]] {
+	puts "<$tag>"
+}
+
+foreach row $table {
+	lassign $row {*}$columns  ;# -> ID .. TAGS
+	set SeeAlso($ID) {}
+	foreach tag $TAGS {
+		set tag [string toupper $tag]
+		lappend SeeAlso($ID) {*}$xtag($tag)
+	}
+	 # remove duplicated
+	set SeeAlso($ID) [lsort -unique $SeeAlso($ID)]
+	 # remove ID .
+	set pos [lsearch -nocase $SeeAlso($ID) $ID]
+	if { $pos != -1 } {
+		set SeeAlso($ID) [lreplace $SeeAlso($ID) $pos $pos]
+	}
+}
 
 set IDs [lmap row $table { lindex $row 0 }]
 
@@ -82,14 +117,8 @@ lappend prevIDs {} ; lappend prevIDs {*}[lrange $IDs 0 end-1]
 # -----
 set seqNo 0
 foreach row $table nextID $nextIDs prevID $prevIDs {
-	lassign $row {*}$columns
-
-	# plus: check if RELATED ids are correct
-	foreach id [split $RELATED " "] {
-		if { $id ni $IDs } {
-			puts stderr "WARNING: ID \"$ID\" has a broken reference to id \"$id\""
-		}
-	}
+	lassign $row {*}$columns ;# ID SOURCE TITLE INFO TAGS(ignored)
+	set SEEALSO $SeeAlso($ID)
 
 	set f [open ${CARD_DIR}/${ID}.md w]
 		puts $f "---"
@@ -97,7 +126,7 @@ foreach row $table nextID $nextIDs prevID $prevIDs {
 		puts $f "SOURCE: \"$SOURCE\""
 		puts $f "TITLE: \"$TITLE\""
 		puts $f "INFO: \"$INFO\""
-		puts $f "RELATED: \"$RELATED\""
+		puts $f "RELATED: \"$SEEALSO\""
 		puts $f "seqNo: $seqNo"
 		puts $f "prevID: $prevID"
 		puts $f "nextID: $nextID"

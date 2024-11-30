@@ -7,9 +7,10 @@ NOTE:
  * Remove trailing blanc lines !!
 Fields:
 - ID      - the KEY, single word (only alfanumeric, no underscore, nor other chars)
+- SOURCE  - filename
 - TITLE   - a short title
 - INFO    - long description  (? unstructured ?)
-- RELATED - (optional) sequence of ID (separated by 1 " ")
+- TAGS    - (optional) sequence of case-insensitive tags (single words) (separated by 1 " ")
 
 For each ID, we expect two images placed in the /_cards directory :
   <ID>.png   (large image)
