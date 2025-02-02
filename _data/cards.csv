@@ -24,6 +24,7 @@ sample014,sample014.tcl,"Tiger","<BR>Demo of a classic vectorial image<BR>data e
 
 sample015,sample015.tcl,"Tiger deformations","<BR>Perspective transformation over a classic vectorial image<BR>data extracted and pre-processed from a SVG image<BR>Interactive Animation",TIGER
 sample016,sample016.tcl,"Tiger SVG","<BR>Tiger SVG<BR>using BL::Svgdoc for loading on-fly the SVG image<BR>Interactive Animation",TIGER SVG
+sample017,sample017.tcl,"Tiger SVG axis rotation","<BR>Tiger SVG<BR>using BL::Svgdoc for loading on-fly the SVG image<BR>Interactive Animation",TIGER SVG
 
 sample101,sample101.tcl,"Glyph","<BR>Extracting the geometry from a font's glyph<BR>countours, normal, tangents",TEXT
 
@@ -110,5 +111,14 @@ sample166,sample166.tcl,"Harriss Spiral","<BR>Step by step animation",SPIRAL
 sample166X,sample166X.tcl,"Basic Harriss Spiral","<BR>Basic Harriss Spiral",SPIRAL
 sample167,sample167.tcl,"Cohaxial Variations","<BR>Adapted from an openprocessing.org demo<BR>Animation",SIMMETRY
 sample168,sample168.tcl,"Cohaxial Rotating Spiral","<BR>Variation of sample167<BR>Animation",SPIRAL SIMMETRY
+
+sample169,sample169.tcl,"Paper cut","<BR>Several layers with shadows",SHADOW
+sample170,sample170.tcl,"Snow flake","<BR>Animation",
+sample171,sample171.tcl,"Perspective","<BR>SVG image rotating around Y axis, with perspective<BR>Animation",
+sample172,sample172.tcl,"ABCD","4 Letters with shadows",
+sample173,sample173.tcl,"Yellow dog","<BR>PNG image with added shadow",
+sample174,sample174.tcl,"Splash","<BR>Using of masks (and shadows)",MASK
+sample175,sample175.tcl,"Rhino","<BR>Dynamic Masks",MASK
+
 sample500,sample500.tcl,"Rainbow Rain","<BR>Animation",CONTRIBUTION
 sample501,sample50..tcl,"Fireworks","<BR>Interactive Animation",CONTRIBUTION
