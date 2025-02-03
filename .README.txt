@@ -1,6 +1,6 @@
 === README ===
 
-iIl cuore di tutto e' nel tabulto
+Il cuore di tutto e' nel tabulato
 _data
    cards.csv
 e nella cartella di immagini
