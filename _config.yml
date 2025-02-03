@@ -9,8 +9,8 @@ collections:
   cards:
     output: true
 
-plugins:
-  - jekyll-paginate-v2
+#plugins:
+#- jekyll-paginate-v2
 
 # ======================================================
 # pagination - v2
