@@ -19,7 +19,7 @@ pagination:
 <center>
 <div class="pagination">
   {% for trail in paginator.page_trail %}
-	<a href="..{{ trail.path }}"
+	<a href="{{ trail.path | relative_url }}"
 	    {% if page.url == trail.path %} class="active"{% endif %}
 	>{{trail.num}}</a>
   {% endfor %}
@@ -31,13 +31,13 @@ pagination:
 
 <div>
 {% for xcard in paginator.posts %}
-	{% assign thumbImg = xcard.ID | append: '_t.png' %}
-	{% assign cardPage = xcard.url %}
+	{% assign thumbImg = xcard.ID | prepend: '/pics/' | relative_url | append: '_t.png' %}
+	{% assign cardPage = xcard.url | relative_url %}
 
 <div class="responsive">
   <div class="thumb">
-    <a href="..{{cardPage}}">
-      <img src="../pics/{{thumbImg}}"/>
+    <a href="{{cardPage}}">
+      <img src="{{thumbImg}}"/>
     </a>
     <div class="desc">{{xcard.TITLE}}</div>
   </div>

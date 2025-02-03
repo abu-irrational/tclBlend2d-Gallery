@@ -3,29 +3,29 @@ layout: default
 ---
 
 {% assign Per_Page = site.pagination.per_page %}
-{% assign imgFile = page.ID | append: '.png' %}
+{% assign imgFile = page.ID | prepend: '/pics/' | relative_url | append: '.png' %}
 {% if page.prevID %}
 	{% assign prevCard= page.prevID | append: '.html' %}
 {% endif %}
 {% if page.nextID %}
 	{% assign nextCard= page.nextID | append: '.html' %}
 {% endif %}
-{% assign upCard = page.seqNo | divided_by: Per_Page | plus: 1 | append: '.html' %}
+{% assign upCard = page.seqNo | divided_by: Per_Page | plus: 1 | prepend: '/pageidx/' | relative_url | append: '.html' %}
 
 
 <center>
     <div class="cardImageContainer">
-        <img src="../pics/{{imgFile}}" alt="Zoomable Image" id="zoomable-image">
+        <img src="{{imgFile}}" alt="Zoomable Image" id="zoomable-image">
     </div>
 </center>
 
 {% if prevCard %}
-    <a href="{{prevCard}}"><img class="prevCard" src="../assets/img/leftArrow.png" alt="previous card"></a>
+    <a href="{{prevCard}}"><img class="prevCard" src="{{ site.baseurl }}/assets/img/leftArrow.png" alt="previous card"></a>
 {% endif %}
 {% if nextCard %}
-    <a href="{{nextCard}}"><img class="nextCard" src="../assets/img/rightArrow.png" alt="next card"></a>
+    <a href="{{nextCard}}"><img class="nextCard" src="{{ site.baseurl }}/assets/img/rightArrow.png" alt="next card"></a>
 {% endif %}
-	<a href="../pageidx/{{upCard}}"><img class="upCard" src="../assets/img/upArrow.png" alt="up to gallery"></a>
+	<a href="{{upCard}}"><img class="upCard" src="{{ site.baseurl }}/assets/img/upArrow.png" alt="up to gallery"></a>
 
 <center>
 <h2>{{page.TITLE}}</h2>
@@ -42,9 +42,9 @@ layout: default
     </div>
     <div class="seeAlsoimages">
 {% for relID in relIDs %}
-  {% assign thumbImg = relID | append: '_t.png' %}
+  {% assign thumbImg = relID | prepend: '/pics/' | relative_url | append: '_t.png' %}
   {% assign relIDCard= relID | append: '.html' %}
-  <A HREF={{relIDCard}}><IMG class="seeAlsoImage" src="../pics/{{thumbImg}}"></A>
+  <A HREF={{relIDCard}}><IMG class="seeAlsoImage" src="{{thumbImg}}"></A>
 {% endfor %}
     </div>
 </div>
