@@ -2,7 +2,8 @@
 
 title: "tclBlend2 - Gallery"
 
-baseurl: /tclBlend2d-Gallery
+#baseurl: /tclBlend2d-Gallery
+baseurl: xxGallery
 
 
 collections:
