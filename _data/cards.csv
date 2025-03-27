@@ -120,5 +120,11 @@ sample173,sample173.tcl,"Yellow dog","<BR>PNG image with added shadow",
 sample174,sample174.tcl,"Splash","<BR>Using of masks (and shadows)",MASK
 sample175,sample175.tcl,"Rhino","<BR>Dynamic Masks",MASK
 
+sample176,sample176.tcl,"Measure for Measure Dark with Turquoise","<BR>Bridget Riley 2021",RILEY
+sample177,sample177.tcl,"Measure for Measure - Variations","<BR>Bridget Riley 2021",RILEY
+sample178,sample178.tcl,"Study for Gala - 1974","<BR>Bridget Riley",RILEY
+sample179,sample179.tcl,"Gala","<BR>Bridget Riley",RILEY
+sample180,sample180.tcl,"multi-line text","<BR>Demo for multi-line and text justification",TEXT
+
 sample500,sample500.tcl,"Rainbow Rain","<BR>Animation",CONTRIBUTION
-sample501,sample50..tcl,"Fireworks","<BR>Interactive Animation",CONTRIBUTION
+sample501,sample501..tcl,"Fireworks","<BR>Interactive Animation",CONTRIBUTION

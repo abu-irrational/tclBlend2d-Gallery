@@ -22,6 +22,9 @@ vengono creati:
 ./card-index.html   - Questo e' il modello per la paginazione delle
  schede
 
+** test
+ http://127.0.0.1:4000/tclBlend2d-Gallery/
+
 
 ====  CAricare su GitHub e quindi Pages ... ===
 Naturalmente le modifiche vanno fatte e testate localmente
