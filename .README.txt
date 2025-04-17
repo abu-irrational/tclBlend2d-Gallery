@@ -7,7 +7,7 @@ e nella cartella di immagini
 pics
    *.png
 
-A partire da queste, con
+A partire da queste, (su Ubuntu) con
   tclsh .pre-Jekyll.tcl
 vengono creati:
 * una serie di moduli per ogni riga di cards.csv
@@ -15,6 +15,7 @@ vengono creati:
 	_cards   
 * una serie di thumbnail nella cartella pics.
 
+( li puoi vedere in http://127.0.0.1:4000/tclBlend2d-Gallery/ 9
 -----
 * In _layout abbiamo
     cards.html  -  template per le schede in _cards

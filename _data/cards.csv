@@ -76,7 +76,10 @@ sample133,sample133.tcl,"Truchet triangular tiles","<BR>random generation",TRUCH
 sample134,sample134.tcl,"Optical composition"," "
 sample135,sample135.tcl,"Optical composition"," "
 sample136,sample136.tcl,"RGB Waves","<BR>Adapted from an openprocessing.org demo<BR>Animation",COMPOP
+
 sample137,sample137.tcl,"Wall of cubes","<BR>Interactive.",HEXAGON
+sample137a,sample137a.tcl,"Wall of cubes - variant","<BR>Interactive.<BR>Adding some random walking men",HEXAGON
+
 sample138,sample138.tcl,"Impossible Triangle","<BR>Playing with 2D you can create impossible worlds."
 sample139,sample139.tcl,"Optical composition"," "
 sample140,sample140.tcl,"Annuli","<BR>Conical gradients<BR>Animation",CONICAL ANNULUS
