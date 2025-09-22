@@ -39,7 +39,7 @@ sample104,sample104.tcl,"Hand-drawn lines","<BR>Experiment for drawing pseudo ha
 sample105,sample105.tcl,"Simple SVG","<BR>Loading and parsing a very simple SVG file<BR>Resizable in real-time",SVG
 
 sample105.1,sample105-1.tcl,"Simple SVG (variant)","<BR>Full SVG parsing<BR>This demo makes use of the new BL::SvgDoc class..",SVG
-sample106,sample106.tcl,"Electric Furball","<BR>Adapted from an openprocessing.org demo",MOON
+sample106,sample106.tcl,"Electric Furball","<BR>Adapted from an openprocessing.org demo",MOON SPHERE
 sample107,sample107.tcl,"Kaleidoscope","<BR>Adapted from an openprocessing.org demo<BR>Animation",SIMMETRY
 sample108,sample108.tcl,"Oscilloscope","<BR>Adapted from an openprocessing.org demo<BR>Using Splines for drawing damped waves",SPLINES
 sample109,sample109.tcl,"Blobs","<BR>Adapted from an openprocessing.org demo<BR>Splines<BR>Perlin noise",SPLINES
@@ -120,7 +120,7 @@ sample170,sample170.tcl,"Snow flake","<BR>Animation",
 sample171,sample171.tcl,"Perspective","<BR>SVG image rotating around Y axis, with perspective<BR>Animation",
 sample172,sample172.tcl,"ABCD","4 Letters with shadows",
 sample173,sample173.tcl,"Yellow dog","<BR>PNG image with added shadow",
-sample174,sample174.tcl,"Splash","<BR>Using of masks (and shadows)",MASK
+sample174,sample174.tcl,"Splash","<BR>Using of masks (and shadows)",MASK SHADOW
 sample175,sample175.tcl,"Rhino","<BR>Dynamic Masks",MASK
 
 sample176,sample176.tcl,"Measure for Measure Dark with Turquoise","<BR>Bridget Riley 2021",RILEY
@@ -129,5 +129,28 @@ sample178,sample178.tcl,"Study for Gala - 1974","<BR>Bridget Riley",RILEY
 sample179,sample179.tcl,"Gala","<BR>Bridget Riley",RILEY
 sample180,sample180.tcl,"multi-line text","<BR>Demo for multi-line and text justification",TEXT
 
+sample181,sample181.tcl,"Bump","<BR>Raising buttons<BR>Animation",SHADOW
+sample182,sample182.tcl,"Crystal sphere","<BR>3D Animation",SPHERE
+sample183,sample183.tcl,"Balm","<BR>Bridget Riley",RILEY
+sample184,sample184.tcl,"Rotating curves","<BR>Animation"
+sample185,sample185.tcl,"Discs on a sphere","<BR>3D Animation",SPHERE
+sample186,sample186.tcl,"Ice","<BR>Quasi a Guilloche'"
+sample187,sample187.tcl,"Thin lines","<BR>Animation"
+sample188,sample188.tcl,"Lava","<BR>Animation"
+sample188b,sample188b.tcl,"Lava (variant)","<BR>Animation with Hit detection"
+sample189,sample189.tcl,"Burning","<BR>Random Animation"
+sample190a,sample190a.tcl,"Globus","<BR>3D Interactive Animation",SPHERE
+sample190a,sample190a.tcl,"Globus","<BR>3D Interactive Animation",SPHERE
+sample190b,sample190b.tcl,"Globus","<BR>3D Interactive Animation",SPHERE
+sample190c,sample190c.tcl,"Globus","<BR>3D Interactive Animation",SPHERE
+sample191,sample191.tcl,"Spheres on spheres","<BR>3D Interactive Animation",SPHERE
+sample192,sample192.tcl,"Moire' effect","<BR>Animation"
+sample193,sample193.tcl,"Nautilus","Spirals without math",SHADOW
+sample194,sample194.tcl,"Dancing Galaxies","<BR>Animation"
+sample195,sample195.tcl,"Quasi a Guilloche","<BR>Animation"
+sample195X,sample195X.tcl,"Quasi a Guilloche","<BR>Animation"
+sample196,sample196.tcl,"Inner shadow demo","-",SHADOW
+sample197,sample197.tcl,"demo Morphologial filter","simple demo"
+
 sample500,sample500.tcl,"Rainbow Rain","<BR>Animation",CONTRIBUTION
-sample501,sample501..tcl,"Fireworks","<BR>Interactive Animation",CONTRIBUTION
+sample501,sample501.tcl,"Fireworks","<BR>Interactive Animation",CONTRIBUTION
