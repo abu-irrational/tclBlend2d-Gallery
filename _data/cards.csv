@@ -152,5 +152,15 @@ sample195X,sample195X.tcl,"Quasi a Guilloche","<BR>Animation"
 sample196,sample196.tcl,"Inner shadow demo","-",SHADOW
 sample197,sample197.tcl,"demo Morphologial filter","simple demo"
 
+sample198,sample198.tcl,"Hyperbolic Disc","math"
+sample199,sample199.tcl,"Unknown Pleasures","<BR>Animation"
+sample200,sample200.tcl,"Calm Sea","<BR>Animation"
+sample201,sample201.tcl,"13 Shields","<BR>Slideshow"
+sample202,sample202.tcl,"Bullseye","<BR>Simple radial gradient"
+sample203,sample203.tcl,"Rays","<BR>Simple conic gradient"
+sample204,sample204.tcl,"Rings","random shapes"
+sample205,sample205.tcl,"Coin","Text around a circle"
+sample206,sample206.tcl,"Floating curves","5 cubic Bezier curves"
+
 sample500,sample500.tcl,"Rainbow Rain","<BR>Animation",CONTRIBUTION
 sample501,sample501.tcl,"Fireworks","<BR>Interactive Animation",CONTRIBUTION

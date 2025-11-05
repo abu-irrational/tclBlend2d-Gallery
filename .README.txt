@@ -15,7 +15,7 @@ vengono creati:
 	_cards   
 * una serie di thumbnail nella cartella pics.
 
-( li puoi vedere in http://127.0.0.1:4000/tclBlend2d-Gallery/ 9
+( li puoi vedere in http://127.0.0.1:4000/tclBlend2d-Gallery/
 -----
 * In _layout abbiamo
     cards.html  -  template per le schede in _cards
@@ -30,7 +30,7 @@ vengono creati:
 ====  CAricare su GitHub e quindi Pages ... ===
 Naturalmente le modifiche vanno fatte e testate localmente
 
-* Modifificare  dataset e immagini
+* Modificare  dataset e immagini
 *    Rigenerare (tclsh pre-Jekill.tcl)
 * Modificare altro
 * bundle exec jekyll serve
