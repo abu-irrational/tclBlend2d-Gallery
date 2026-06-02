@@ -162,5 +162,10 @@ sample204,sample204.tcl,"Rings","random shapes"
 sample205,sample205.tcl,"Coin","Text around a circle"
 sample206,sample206.tcl,"Floating curves","5 cubic Bezier curves"
 
+sample207,sample207.tcl,"Tint","Tint effect"
+sample208,sample208.tcl,"White on White","White texts with inner shadows"
+sample209,sample209.tcl,"Sticker","Sticker effect surrounding an image with transparency"
+
+
 sample500,sample500.tcl,"Rainbow Rain","<BR>Animation",CONTRIBUTION
 sample501,sample501.tcl,"Fireworks","<BR>Interactive Animation",CONTRIBUTION
