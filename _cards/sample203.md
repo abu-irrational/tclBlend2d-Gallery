@@ -4,7 +4,7 @@ SOURCE: "sample203.tcl"
 TITLE: "Rays"
 INFO: "<BR>Simple conic gradient"
 RELATED: ""
-seqNo: 135
+seqNo: 134
 prevID: sample202
 nextID: sample204
 ---

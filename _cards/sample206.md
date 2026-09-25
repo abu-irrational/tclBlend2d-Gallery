@@ -4,7 +4,7 @@ SOURCE: "sample206.tcl"
 TITLE: "Floating curves"
 INFO: "5 cubic Bezier curves"
 RELATED: ""
-seqNo: 138
+seqNo: 137
 prevID: sample205
 nextID: sample207
 ---

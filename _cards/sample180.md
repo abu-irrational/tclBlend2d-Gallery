@@ -3,7 +3,7 @@ ID: sample180
 SOURCE: "sample180.tcl"
 TITLE: "multi-line text"
 INFO: "<BR>Demo for multi-line and text justification"
-RELATED: "sample007 sample101 sample101a sample117 sample118"
+RELATED: "sample007 sample101 sample101a sample117 sample118 sample205 sample213"
 seqNo: 107
 prevID: sample179
 nextID: sample181

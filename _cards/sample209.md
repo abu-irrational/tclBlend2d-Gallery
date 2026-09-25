@@ -4,7 +4,7 @@ SOURCE: "sample209.tcl"
 TITLE: "Sticker"
 INFO: "Sticker effect surrounding an image with transparency"
 RELATED: ""
-seqNo: 141
+seqNo: 140
 prevID: sample208
-nextID: sample500
+nextID: sample210
 ---
